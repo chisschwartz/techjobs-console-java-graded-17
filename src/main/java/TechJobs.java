@@ -121,7 +121,7 @@ public class TechJobs {
 
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if (someJobs.size() == 0) {
-            System.out.println("No jobs found for search term");
+            System.out.println("No Results");
         }
         for (HashMap<String, String> job : someJobs) {
             System.out.println("");
@@ -133,6 +133,7 @@ public class TechJobs {
         }
     }
 }
+
 
         //private String jobData.JobData.allJobs;
 //        ArrayList<HashMap<String, String>> JobData.allJobs;
